@@ -5,8 +5,8 @@
 A University website.
 
 ### DONE IN
-<li>Php</li>
-<ul><li>Html</li>
+<ul><li>Php</li>
+<li>Html</li>
 <li>CSS</li>
 <li>JavaScript</li>
 </ul>

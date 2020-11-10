@@ -1,4 +1,6 @@
 <?php
+
+    get_header();
     //haveposts question is there available post?
     //the posts() it enables other posts related function 
 
@@ -9,4 +11,6 @@
         <div><?php the_content(); ?></div>
     <?php }
 
+    get_footer();
+    
 ?>

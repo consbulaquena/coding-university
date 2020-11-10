@@ -73,29 +73,29 @@
     <div class="hero-slider">
       <div data-glide-el="track" class="glide__track">
         <div class="glide__slides">
-          <div class="hero-slider__slide" style="background-image: url(images/bus.jpg);">
+          <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/bus.jpg') ?>);">
             <div class="hero-slider__interior container">
               <div class="hero-slider__overlay">
-                <h2 class="headline headline--medium t-center">Free Transportation</h2>
-                <p class="t-center">All students have free unlimited bus fare.</p>
+                <h2 class="headline headline--medium t-center">JAVASCRIPT FOR BEGINNERS</h2>
+                <p class="t-center">This online, part-time course is a perfect way to kick off your coding education.</p>
                 <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
               </div>
             </div>
           </div>
-          <div class="hero-slider__slide" style="background-image: url(images/apples.jpg);">
+          <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/apples.jpg') ?>);">
             <div class="hero-slider__interior container">
               <div class="hero-slider__overlay">
-                <h2 class="headline headline--medium t-center">An Apple a Day</h2>
-                <p class="t-center">Our dentistry program recommends eating apples.</p>
+                <h2 class="headline headline--medium t-center">CS PREP</h2>
+                <p class="t-center">CS Prep teaches core JavaScript concepts through live-online instruction.</p>
                 <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
               </div>
             </div>
           </div>
-          <div class="hero-slider__slide" style="background-image: url(images/bread.jpg);">
+          <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('images/bread.jpg') ?>);">
             <div class="hero-slider__interior container">
               <div class="hero-slider__overlay">
-                <h2 class="headline headline--medium t-center">Free Food</h2>
-                <p class="t-center">Coding bootcamp offers lunch plans for those in need.</p>
+                <h2 class="headline headline--medium t-center">FREE CODING WORKSHOPS</h2>
+                <p class="t-center">Coding bootcamp break down critical coding concepts for all.</p>
                 <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
               </div>
             </div>

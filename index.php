@@ -1,4 +1,5 @@
-<?php
+<?php get_header(); 
+
     //haveposts question is there available post?
     //the posts() it enables other posts related function 
 

@@ -1,8 +1,8 @@
-# Coding University
+# Coding Bootcamp
 
 
 ### ABOUT
-A University website.
+A Bootcamp website.
 
 ### DONE IN
 <ul><li>Php</li>

@@ -3,7 +3,7 @@
         <div class="group">
           <div class="site-footer__col-one">
             <h1 class="school-logo-text school-logo-text--alt-color">
-              <a href="#"><strong>Coding</strong> University</a>
+              <a href="#"><strong>Coding</strong> Bootcamp</a>
             </h1>
             <p><a class="site-footer__link" href="#">555.555.5555</a></p>
           </div>

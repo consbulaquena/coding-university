@@ -690,10 +690,10 @@
       background: linear-gradient(#F95738, rgb(204, 34, 0));
     }
   .btn--blue {
-      background-color: #0D3B66;
+      background-color: #0091DA;
     }
   .btn--blue:hover {
-      background: linear-gradient(rgb(13, 80, 143), #0D3B66);
+      background: #0DAEFF;
     }
   .btn--yellow {
       background-color: #F4D35E;

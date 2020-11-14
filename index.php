@@ -6,7 +6,7 @@
       <div class="page-banner__content container t-center c-white">
         <h1 class="headline headline--large"></h1>
         <h2 class="headline headline--medium">Software Engineering Programs</h2>
-        <h3 class="headline headline--small">Coding Bootcamp online prep courses will teach you the javascript skills you need to get into any software engineering bootcamp.</h3>
+        <h3 class="headline headline--small">Coding Bootcamp online courses will teach you the javascript skills to become a Software Engineer.</h3>
         <a href="#" class="btn btn--large btn--blue">Enroll now</a>
       </div>
     </div>
@@ -37,7 +37,7 @@
             </div>
           </div>
 
-          <p class="t-center no-margin"><a href="#" class="btn btn--blue">View All Events</a></p>
+          <p class="t-center no-margin"><a href="#" class="btn btn--blue-outline">View All Events</a></p>
         </div>
       </div>
       <div class="full-width-split__two">
@@ -65,7 +65,7 @@
             </div>
           </div>
 
-          <p class="t-center no-margin"><a href="#" class="btn btn--yellow">View All Blog Posts</a></p>
+          <p class="t-center no-margin"><a href="#" class="btn btn--blue-outline">View All Blog Posts</a></p>
         </div>
       </div>
     </div>

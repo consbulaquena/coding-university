@@ -696,11 +696,26 @@
       background: #0DAEFF;
     }
   .btn--yellow {
-      background-color: #F4D35E;
+      background-color: #0091DA;
       text-shadow: 1px 1px 1px rgba(0, 0, 0, .22);
     }
+    .btn--blue-outline {
+      background-color: transparent;
+      border: #0091DA solid 1px;
+      color: #0091DA;
+
+    }
+  .btn--blue-outline:hover {
+      background: #0DAEFF;
+      color: #FFF;
+    }
+
+
   .btn--yellow:hover {
-      background: linear-gradient(#F4D35E, rgb(240, 188, 0));
+      background: #0DAEFF;
+      border: #000;
+      border-width: 1px;
+      border-style: solid;
     }
   .btn--beige {
       background-color: #FAF0CA;
@@ -1528,7 +1543,7 @@
     }
   .full-width-split__two {
       flex: 1;
-      background-color: #FAF0CA;
+      background-color: #ffffff;
       padding: 1.6rem 16px;
     }
   @media (min-width: 960px) {
@@ -1560,7 +1575,7 @@
       padding: 14px 0 11px 0;
       color: #FFF;
       border-radius: 50%;
-      background-color: #0D3B66;
+      background-color: #0092DB;
       width: 80px;
       line-height: 1;
       transition: opacity .33s;
@@ -1570,7 +1585,7 @@
       opacity: .75;
     }
   .event-summary__date--beige {
-      background-color: #F4D35E;
+      background-color: #0092DB;
     }
   .event-summary__month {
       display: block;

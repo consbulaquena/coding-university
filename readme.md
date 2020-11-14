@@ -1,7 +1,7 @@
 # Coding Bootcamp
 
 ### ABOUT
-A Bootcamp website.
+A Coding Bootcamp website.
 
 <img src="/images/codinguni.jpg">
 

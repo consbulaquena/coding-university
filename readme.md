@@ -16,3 +16,5 @@ A Bootcamp website.
 <ul><li>Visual Studio Code</li>
 <li>Adobe Photoshop 2020</li>
 </ul>
+
+Credit: Brad Schiff’s course helped me to build this site.

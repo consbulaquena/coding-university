@@ -1708,7 +1708,7 @@
       text-decoration: underline;
     }
   .metabox .metabox__blog-home-link {
-      background-color: #0D3B66;
+      background-color: #0091DA;
       color: #FFF;
       display: inline-block;
       padding: 10px 15px;
@@ -1717,7 +1717,7 @@
     }
   .metabox .metabox__blog-home-link:hover {
       text-decoration: none;
-      background-color: rgb(11, 47, 81);
+      background-color: #0DAEFF;
     }
   .post-item {
     border-bottom: 1px dotted #DEDEDE;

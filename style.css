@@ -1489,11 +1489,12 @@
       margin-bottom: .25rem;
     }
   .headline--post-title a {
-      color: #0D3B66;
+      color: #000000;
       text-decoration: none;
     }
   .headline--post-title a:hover {
-      text-decoration: underline;
+      text-decoration: none;
+      color: #2bace8;
     }
   .generic-content p, .generic-content li {
       font-size: 1.15rem;

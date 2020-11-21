@@ -23,6 +23,9 @@ get_header(); ?>
     <p>Posted by Brad on 6.8.17 in News </p>
     </div>
 
+    <div class="generic-content">
+    <?php the_excerpt(); ?>
+    </div>
   </div>
   <?php }
   ?>

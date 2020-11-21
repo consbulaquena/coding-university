@@ -28,12 +28,11 @@
     </div>
         <?php }
       ?>
-
+       
         <?php 
         $testArray = get_pages(array(
           'child_of' => get_the_ID()
-
-        ));
+        )); 
         
         if ($theParent or $testArray) { ?>
     <div class="page-links">
@@ -45,12 +44,13 @@
           } else {
             $findChildrenOf = get_the_ID();
           }
-          
+
           wp_list_pages(array(
             'title_li' => NULL,
             'child_of' => $findChildrenOf,
             'sort_column' => 'menu_order'
           ));
+
         ?>
       </ul>
     </div>

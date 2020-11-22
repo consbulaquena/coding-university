@@ -21,7 +21,7 @@ get_header(); ?>
       <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
     <div class="meta-box">
-    <p>Posted by <?php the_author_posts_link(); ?> on <?php the_time(); ?> in News </p>
+    <p>Posted by <?php the_author_posts_link(); ?> on <?php the_time('n-F-y'); ?> in <?php echo get_the_category_list(', '); ?> </p>
     </div>
 
     <div class="generic-content">

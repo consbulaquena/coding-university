@@ -21,11 +21,12 @@ get_header(); ?>
       <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
     <div class="meta-box">
-    <p>Posted by Cons on 6.8.17 in News </p>
+    <p>Posted by <?php the_author_posts_link(); ?> on <?php the_time(); ?> in News </p>
     </div>
 
     <div class="generic-content">
     <?php the_excerpt(); ?>
+    <p><a class="btn btn--blue-outline" href="<?php the_permalink(); ?>">Continue reading</a></p>
     </div>
   </div>
   <?php }

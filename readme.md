@@ -5,6 +5,10 @@ A Coding Bootcamp website.
 
 <img src="/images/codinguni.jpg">
 
+### FEATURES
+<ul><li>Blog</li>
+</ul>
+
 ### DONE IN
 <ul><li>Php</li>
 <li>Html</li>

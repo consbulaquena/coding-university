@@ -1,6 +1,12 @@
+/*
+    Theme Name: Coding University
+    Author: Cons
+    Version: 1.0
+*/
+
 /* 3rd party packages */
-@import "normalize.css";
-@import "../node_modules/@glidejs/glide/dist/css/glide.core.min.css";
+@import "../../../../../../node_modules/normalize.css/normalize.css";
+@import "../../../../../../node_modules/@glidejs/glide/dist/css/glide.core.min.css";
 
 /* SASS and Global'ish Stuff */
 @import "base/variables";
@@ -28,3 +34,4 @@
 @import "modules/link-list";
 @import "modules/metabox";
 @import "modules/post-item";
+@import "mystyle";

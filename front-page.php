@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-
 <div class="page-banner">
       <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/library-hero.jpg') ?>);"></div>
       <div class="page-banner__content container t-center c-white">
@@ -15,27 +14,29 @@
       <div class="full-width-split__one">
         <div class="full-width-split__inner">
           <h2 class="headline headline--small-plus t-center">Our Bootcamps</h2>
+            
+          <?php 
+            $homepageEvents = new WP_Query(array(
+              'posts_per_page' => 2,
+              'post_type' => 'event'
+            ));
 
-          <div class="event-summary">
+            while($homepageEvents->have_posts()) {
+              $homepageEvents->the_post(); ?>
+            <div class="event-summary">
             <a class="event-summary__date t-center" href="#">
               <span class="event-summary__month">Mar</span>
               <span class="event-summary__day">25</span>
             </a>
             <div class="event-summary__content">
-              <h5 class="event-summary__title headline headline--tiny"><a href="#">Onsite 12 Weeks Full-Time</a></h5>
-              <p>Join Coding Bootcamp’s software engineering program at one of the Galvanize campuses across the nation. <a href="#" class="nu gray">Learn more</a></p>
+              <h5 class="event-summary__title headline headline--tiny"><a href="#"><?php the_title(); ?></a></h5>
+              <p><?php echo wp_trim_words(get_the_content(), 18); ?><a href="#" class="nu gray">Learn more</a></p>
             </div>
           </div>
-          <div class="event-summary">
-            <a class="event-summary__date t-center" href="#">
-              <span class="event-summary__month">Apr</span>
-              <span class="event-summary__day">02</span>
-            </a>
-            <div class="event-summary__content">
-              <h5 class="event-summary__title headline headline--tiny"><a href="#">Remote 12 Weeks Full-Time (Online)</a></h5>
-              <p>Reinvent your career remotely with our live online immersive coding bootcamp, which directly mirrors our in-person program. <a href="#" class="nu gray">Learn more</a></p>
-            </div>
-          </div>
+            <?php }
+          ?>
+
+
 
           <p class="t-center no-margin"><a href="#" class="btn btn--blue-outline">Learn More</a></p>
         </div>

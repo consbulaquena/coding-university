@@ -110,6 +110,18 @@ eval("__webpack_require__.r(__webpack_exports__);\nfunction _classCallCheck(inst
 
 /***/ }),
 
+/***/ "./app/public/wp-content/themes/coding-university-theme/js/modules/Search.js":
+/*!***********************************************************************************!*\
+  !*** ./app/public/wp-content/themes/coding-university-theme/js/modules/Search.js ***!
+  \***********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nvar Search = function Search() {\n  _classCallCheck(this, Search);\n\n  alert(\"hello\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Search);\n\n//# sourceURL=webpack:///./app/public/wp-content/themes/coding-university-theme/js/modules/Search.js?");
+
+/***/ }),
+
 /***/ "./app/public/wp-content/themes/coding-university-theme/js/scripts.js":
 /*!****************************************************************************!*\
   !*** ./app/public/wp-content/themes/coding-university-theme/js/scripts.js ***!
@@ -118,7 +130,7 @@ eval("__webpack_require__.r(__webpack_exports__);\nfunction _classCallCheck(inst
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_MobileMenu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/MobileMenu */ \"./app/public/wp-content/themes/coding-university-theme/js/modules/MobileMenu.js\");\n/* harmony import */ var _modules_HeroSlider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/HeroSlider */ \"./app/public/wp-content/themes/coding-university-theme/js/modules/HeroSlider.js\");\n// Our modules / classes\n\n // Instantiate a new object using our modules/classes\n\nvar mobileMenu = new _modules_MobileMenu__WEBPACK_IMPORTED_MODULE_0__[\"default\"]();\nvar heroSlider = new _modules_HeroSlider__WEBPACK_IMPORTED_MODULE_1__[\"default\"](); // Allow new JS and CSS to load in browser without a traditional page refresh\n\nif (false) {}\n\n//# sourceURL=webpack:///./app/public/wp-content/themes/coding-university-theme/js/scripts.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_MobileMenu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/MobileMenu */ \"./app/public/wp-content/themes/coding-university-theme/js/modules/MobileMenu.js\");\n/* harmony import */ var _modules_HeroSlider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/HeroSlider */ \"./app/public/wp-content/themes/coding-university-theme/js/modules/HeroSlider.js\");\n/* harmony import */ var _modules_Search__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/Search */ \"./app/public/wp-content/themes/coding-university-theme/js/modules/Search.js\");\n// Our modules / classes\n\n\n // Instantiate a new object using our modules/classes\n\nvar mobileMenu = new _modules_MobileMenu__WEBPACK_IMPORTED_MODULE_0__[\"default\"]();\nvar heroSlider = new _modules_HeroSlider__WEBPACK_IMPORTED_MODULE_1__[\"default\"]();\nvar search = new _modules_Search__WEBPACK_IMPORTED_MODULE_2__[\"default\"](); // Allow new JS and CSS to load in browser without a traditional page refresh\n\nif (false) {}\n\n//# sourceURL=webpack:///./app/public/wp-content/themes/coding-university-theme/js/scripts.js?");
 
 /***/ }),
 

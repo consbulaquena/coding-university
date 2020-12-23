@@ -2,6 +2,7 @@
 
 function university_post_types() {
     register_post_type('event', array(
+        'supports' => array('title', 'editor', 'excerpt', 'custom-fields'),
         'has_archive' => true,
         'public' => true,
         'labels' => array(
